@@ -22,5 +22,28 @@
   z-index: 10;
 }
 
+.popup__button_disabled {
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 0.2;
+}
 
+.popup__button:disabled {
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 0.2;
+}
+
+.popup__error {
+    display: none;
+    color: red;
+    font-size: 12px;
+}
+
+.popup__error_visible {
+    display: block;
+}
+.popup__input_type_error {
+    border-bottom-color: red;
+}
 
